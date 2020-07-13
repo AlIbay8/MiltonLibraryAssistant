@@ -392,9 +392,7 @@ function waitToBlink() {
   });
 };
 
-
-
 $(document).ready(function() {
-  document.getElementById("myCanvas").focus;
+  document.focus;
   blink();
 });
