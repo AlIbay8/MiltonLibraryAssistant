@@ -9,58 +9,58 @@ var eye = {};
 var eyeClosing = {};
 
 eye["middle"] = `
-                                ...',;;:cccccccc:;,..
-                            ..,;:cccc::::ccccclloooolc;'.
-                         .',;:::;;;;:loodxk0kkxxkxxdocccc;;'..
-                       .,;;;,,;:coxldKNWWWMMMMWNNWWNNKkdolcccc:,.
-                    .',;;,',;lxo:...dXWMMMMMMMMNkloOXNNNX0koc:coo;.
-                 ..,;:;,,,:ldl'   .kWMMMWXXNWMMMMXd..':d0XWWN0d:;lkd,
-               ..,;;,,'':loc.     lKMMMNl. .c0KNWNK:  ..';lx00X0l,cxo,.
-             ..''....'cooc.       c0NMMX;   .l0XWN0;       ,ddx00occl:.
-           ..'..  .':odc.         .x0KKKkolcld000xc.       .cxxxkkdl:,..
-         ..''..   ;dxolc;'         .lxx000kkxx00kc.      .;looolllol:'..
-        ..'..    .':lloolc:,..       'lxkkkkk0kd,   ..':clc:::;,,;:;,'..
-        ......   ....',;;;:ccc::;;,''',:loddol:,,;:clllolc:;;,'........
-            .     ....'''',,,;;:cccccclllloooollllccc:c:::;,'..
-                    .......'',,,,,,,,;;::::ccccc::::;;;,,''...
-                      ...............''',,,;;;,,''''''......
-                           ............................`;
+                              ...',;;:cccccccc:;,..
+                          ..,;:cccc::::ccccclloooolc;'.
+                       .',;:::;;;;:loodxk0kkxxkxxdocccc;;'..
+                     .,;;;,,;:coxldKNWWWMMMMWNNWWNNKkdolcccc:,.
+                  .',;;,',;lxo:...dXWMMMMMMMMNkloOXNNNX0koc:coo;.
+               ..,;:;,,,:ldl'   .kWMMMWXXNWMMMMXd..':d0XWWN0d:;lkd,
+             ..,;;,,'':loc.     lKMMMNl. .c0KNWNK:  ..';lx00X0l,cxo,.
+           ..''....'cooc.       c0NMMX;   .l0XWN0;       ,ddx00occl:.
+         ..'..  .':odc.         .x0KKKkolcld000xc.       .cxxxkkdl:,..
+       ..''..   ;dxolc;'         .lxx000kkxx00kc.      .;looolllol:'..
+      ..'..    .':lloolc:,..       'lxkkkkk0kd,   ..':clc:::;,,;:;,'..
+      ......   ....',;;;:ccc::;;,''',:loddol:,,;:clllolc:;;,'........
+          .     ....'''',,,;;:cccccclllloooollllccc:c:::;,'..
+                  .......'',,,,,,,,;;::::ccccc::::;;;,,''...
+                    ...............''',,,;;;,,''''''......
+                         ............................`;
 
 eyeClosing["middle"] = `
-                                 ...'',;;;;::;;;,'..
-                            ..,;:cloodddxxxkkkkkkkkxol;..
-                         .';codxxkkk000000000000kkkkkkxdoc,..
-                       .,codxk0000000000000000000000000kkxddoc,..
-                    .':ldxk00000000000000000000000000000000kkxxol:'
-                 .,:ldxkk000000000K000000000000000K0000000000kkxkkx:.
-              ..,coxkk000000000000000kk000000000000000000000000kxxxxl'
-             .,;codxxkk00000000kkk0KK0XNWWWWWWWWWNX0kkkkk00000kkxdool;.
-           .';::ccldk00KKKK00oc;..,x00KNNXXXXXNNX0000000000kkkkkkxoc:,..
-         ..,;,'..,o00000kkxo,       ,lkKKKKKK0K0d,.;ldk000KK0kxxxdoc:'..
-        ..,,'.  .,lk0xxxdol:,..       .,ldddl:,.   .,codkk00kxdollc:,...
-        ..'.......',;:c::cclccc::;,,,',,;::::;,;;:clodddxdol:;::;'......
-           .....  ...''',,,;;;:ccllloooooooooooooolllcccc:;;,....
-                    .......'',,,,,,;;;:::ccclllccc:::;;;,''...
-                      ..............'''',,;;;;;,,,''''......
-                           .............................`;
+                               ...'',;;;;::;;;,'..
+                          ..,;:cloodddxxxkkkkkkkkxol;..
+                       .';codxxkkk000000000000kkkkkkxdoc,..
+                     .,codxk0000000000000000000000000kkxddoc,..
+                  .':ldxk00000000000000000000000000000000kkxxol:'
+               .,:ldxkk000000000K000000000000000K0000000000kkxkkx:.
+            ..,coxkk000000000000000kk000000000000000000000000kxxxxl'
+           .,;codxxkk00000000kkk0KK0XNWWWWWWWWWNX0kkkkk00000kkxdool;.
+         .';::ccldk00KKKK00oc;..,x00KNNXXXXXNNX0000000000kkkkkkxoc:,..
+       ..,;,'..,o00000kkxo,       ,lkKKKKKK0K0d,.;ldk000KK0kxxxdoc:'..
+      ..,,'.  .,lk0xxxdol:,..       .,ldddl:,.   .,codkk00kxdollc:,...
+      ..'.......',;:c::cclccc::;,,,',,;::::;,;;:clodddxdol:;::;'......
+         .....  ...''',,,;;;:ccllloooooooooooooolllcccc:;;,....
+                  .......'',,,,,,;;;:::ccclllccc:::;;;,''...
+                    ..............'''',,;;;;;,,,''''......
+                         .............................`;
 
 eye["forward"] = `                                                                                 
-                                ...',;;:cccccccc:;,..                            
-                            ..,;:cccc::::ccccclloooolc;'.                        
-                         .',;:::;;;;:loodxkOkkxxkxxdocccc;;'..                   
-                       .,;;;,,;:coxldKNWWWMMMMWNNWWNNKkdolcccc:,.                
-                    .',;;,',;lxo:dXWMMMMMMMMWNk.. loOXNNNX0koc:coo;.             
-                 ..,;:;,,,:ldl'.kWMMMWXXNWMMMMXd..   ':d0XWWN0d:;lkd,            
-               ..,;;,,'':loc.  lKMMMNl. .cOKNWNK:     ..';lxO0X0l,cxo,.          
-             ..''....'cooc.    cONMMX;   .lOXWNO;          ,ddx0Ooccl:.          
-           ..'..  .':odc.      .x0KKKkolcldO00xc.          .cxxxkkdl:,..         
-         ..''..   ;dxolc;'      .lxxO0OkkxxO0kc.         .;looolllol:'..         
-        ..'..    .':lloolc:,..    'lxkkkkkOkd,      ..':clc:::;,,;:;,'..         
-        ......   ....',;;;:ccc::;;,,:loddol:,,.,,;:clllolc:;;,'........          
-            .     ....'''',,,;;:cccccclllloooollllccc:c:::;,'..                  
-                    .......'',,,,,,,,;;::::ccccc::::;;;,,''...                   
-                      ...............''',,,;;;,,''''''......                     
-                           ............................`;                    
+                              ...',;;:cccccccc:;,..                            
+                          ..,;:cccc::::ccccclloooolc;'.                        
+                       .',;:::;;;;:loodxkOkkxxkxxdocccc;;'..                   
+                     .,;;;,,;:coxldKNWWWMMMMWNNWWNNKkdolcccc:,.                
+                  .',;;,',;lxo:dXWMMMMMMMMWNk.. loOXNNNX0koc:coo;.             
+               ..,;:;,,,:ldl'.kWMMMWXXNWMMMMXd..   ':d0XWWN0d:;lkd,            
+             ..,;;,,'':loc.  lKMMMNl. .cOKNWNK:     ..';lxO0X0l,cxo,.          
+           ..''....'cooc.    cONMMX;   .lOXWNO;          ,ddx0Ooccl:.          
+         ..'..  .':odc.      .x0KKKkolcldO00xc.          .cxxxkkdl:,..         
+       ..''..   ;dxolc;'      .lxxO0OkkxxO0kc.         .;looolllol:'..         
+      ..'..    .':lloolc:,..    'lxkkkkkOkd,      ..':clc:::;,,;:;,'..         
+      ......   ....',;;;:ccc::;;,,:loddol:,,.,,;:clllolc:;;,'........          
+          .     ....'''',,,;;:cccccclllloooollllccc:c:::;,'..                  
+                  .......'',,,,,,,,;;::::ccccc::::;;;,,''...                   
+                    ...............''',,,;;;,,''''''......                     
+                         ............................`;                    
 
 
 
@@ -69,22 +69,22 @@ eye["forward"] = `
 
 
 eyeClosing["forward"] = `                                                                                
-                                 ...'',;;;;::;;;,'..                             
-                            ..,;:cloodddxxxkkkkkkkkxol;..                        
-                         .';codxxkkkOOOOOOOOOOOOkkkkkkxdoc,..                    
-                       .,codxkOOOO00000000OOOO0OOOOOOOOkkxddoc,..                
-                    .':ldxkOOOOO00000000000000000000000OOOOkkxxol:'              
-                 .,:ldxkkOOOOOO000K000000000000000K000000000Okkxkkx:.            
-              ..,coxkkOOOOOOOOOOOOOOOkkOOOOO0000OOOO000000000OOkxxxxl'           
-             .,;codxxkkOOO0O00Okkk0KK0XNWWWWWWWWWNX0kkkkkOOOOOkkxdool;.          
-           .';::ccldkO0KKKK0Ooc;KKKx00KNNXXXXXNNX0OO000O00Okkkkkkxoc:,..         
-         ..''..   ;dxolc;'      .lxxO0OkkxxO0kc.         .;looolllol:'..         
-        ..'..    .':lloolc:,..    'lxkkkkkOkd,      ..':clc:::;,,;:;,'..         
-        ......   ....',;;;:ccc::;;,,:loddol:,,.,,;:clllolc:;;,'........          
-            .     ....'''',,,;;:cccccclllloooollllccc:c:::;,'..                  
-                    .......'',,,,,,,,;;::::ccccc::::;;;,,''...                   
-                      ...............''',,,;;;,,''''''......                     
-                           ............................`;              
+                               ...'',;;;;::;;;,'..                             
+                          ..,;:cloodddxxxkkkkkkkkxol;..                        
+                       .';codxxkkkOOOOOOOOOOOOkkkkkkxdoc,..                    
+                     .,codxkOOOO00000000OOOO0OOOOOOOOkkxddoc,..                
+                  .':ldxkOOOOO00000000000000000000000OOOOkkxxol:'              
+               .,:ldxkkOOOOOO000K000000000000000K000000000Okkxkkx:.            
+            ..,coxkkOOOOOOOOOOOOOOOkkOOOOO0000OOOO000000000OOkxxxxl'           
+           .,;codxxkkOOO0O00Okkk0KK0XNWWWWWWWWWNX0kkkkkOOOOOkkxdool;.          
+         .';::ccldkO0KKKK0Ooc;KKKx00KNNXXXXXNNX0OO000O00Okkkkkkxoc:,..         
+       ..''..   ;dxolc;'      .lxxO0OkkxxO0kc.         .;looolllol:'..         
+      ..'..    .':lloolc:,..    'lxkkkkkOkd,      ..':clc:::;,,;:;,'..         
+      ......   ....',;;;:ccc::;;,,:loddol:,,.,,;:clllolc:;;,'........          
+          .     ....'''',,,;;:cccccclllloooollllccc:c:::;,'..                  
+                  .......'',,,,,,,,;;::::ccccc::::;;;,,''...                   
+                    ...............''',,,;;;,,''''''......                     
+                         ............................`;              
 
 
 
@@ -93,22 +93,22 @@ eyeClosing["forward"] = `
 
 
 eye["left"] = `                                                                                 
-                                ...'',;;;;:::;;,,'..                             
-                            .';:colllloodxxxkxkkkkkdo:,..                        
-                         .,:ldxkO0OOOOkxkkO00O0NNNXXKOxdl:,'..                   
-                      ..;cdOXNNNWWNO:.        .;cllx0KKKKKkdoc:,..               
-                   ..;codOXWMMMMMMMW0;               .,okKNWNKxlccc,.            
-                ..;ldxxOXWO:,oNMMMMMWk.                 .'ckKXNKxlcoo,           
-              ..;ldxxxONMN;  .OWMMMMMX'                    .cdkKXOlcol'          
-            ..;codollONMMWk'.lNMMMMMW0'                     .cxxO0Ooc:,.         
-           .,:cllc:cxKNWNWMWWWMMMWNXO;                      .okkxdxdo:'.         
-         .':clc:,,cx0K00xkKNNNWWXKkc.                    ..;loooc::ll:,..        
-        .,:cc;,...:odxkkkxddl::::,.                 ..';:cc:;:c:;,',''...        
-        .';;;,'..',,;:ccccllllc::;,,''''''''',,,,;:ccllllc:;,,'.....   ..        
-         ..........''',,,;;;;:::cllllllolllllloolllllcc:::;,'...                 
-                ..........',,,;;;;;;;;:cccccccccc::::;;,,''...                   
-                     .........''''''''',,;;;;;,,,'''''......                     
-                           .............................`;                
+                              ...'',;;;;:::;;,,'..                             
+                          .';:colllloodxxxkxkkkkkdo:,..                        
+                       .,:ldxkO0OOOOkxkkO00O0NNNXXKOxdl:,'..                   
+                    ..;cdOXNNNWWNO:.        .;cllx0KKKKKkdoc:,..               
+                 ..;codOXWMMMMMMMW0;               .,okKNWNKxlccc,.            
+              ..;ldxxOXWO:,oNMMMMMWk.                 .'ckKXNKxlcoo,           
+            ..;ldxxxONMN;  .OWMMMMMX'                    .cdkKXOlcol'          
+          ..;codollONMMWk'.lNMMMMMW0'                     .cxxO0Ooc:,.         
+         .,:cllc:cxKNWNWMWWWMMMWNXO;                      .okkxdxdo:'.         
+       .':clc:,,cx0K00xkKNNNWWXKkc.                    ..;loooc::ll:,..        
+      .,:cc;,...:odxkkkxddl::::,.                 ..';:cc:;:c:;,',''...        
+      .';;;,'..',,;:ccccllllc::;,,''''''''',,,,;:ccllllc:;,,'.....   ..        
+       ..........''',,,;;;;:::cllllllolllllloolllllcc:::;,'...                 
+              ..........',,,;;;;;;;;:cccccccccc::::;;,,''...                   
+                   .........''''''''',,;;;;;,,,'''''......                     
+                         .............................`;                
 
 
 
@@ -117,43 +117,43 @@ eye["left"] = `
 
 
 eyeClosing["left"] = `                                                                                 
-                                 ...'',;;;;::;;;,'..                             
-                            ..,;:cloodddxxxkkkkkkkkxol;..                        
-                         .';codxxkkkOOOOOOOOOOOOkkkkkkxdoc,..                    
-                       .,codxkOOOO00000000OOOO0OOOOOOOOkkxddoc,..                
-                    .':ldxkOOOOO00000000000000000000000OOOOkkxxol:'              
-                 .,:ldxkkOOOOOO000K000000000000000K000000000Okkxkkx:.            
-              ..,coxkkOOOOOOOOOOOOOOOkkOOOOO0000OOOO000000000OOkxxxxl'           
-             .,;codxxkkOOO0O00Okkk0KK0XNWWWWWWWWWNX0kkkkkOOOOOkkxdool;.          
-           .';::ccldkO0KKKK0OoccKKKK00KNNXXXXXNNX0OO000O00Okkkkkkxoc:,..         
-         .':clc:,,cx0K00xkKNNNWWXKkc.OKNNX               ..;loooc::ll:,..        
-        .,:cc;,...:odxkkkxddl::::,.                 ..';:cc:;:c:;,',''...        
-        .';;;,'..',,;:ccccllllc::;,,''''''''',,,,;:ccllllc:;,,'.....   ..        
-         ..........''',,,;;;;:::cllllllolllllloolllllcc:::;,'...                 
-                ..........',,,;;;;;;;;:cccccccccc::::;;,,''...                   
-                     .........''''''''',,;;;;;,,,'''''......                     
-                           .............................`;                     
+                               ...'',;;;;::;;;,'..                             
+                          ..,;:cloodddxxxkkkkkkkkxol;..                        
+                       .';codxxkkkOOOOOOOOOOOOkkkkkkxdoc,..                    
+                     .,codxkOOOO00000000OOOO0OOOOOOOOkkxddoc,..                
+                  .':ldxkOOOOO00000000000000000000000OOOOkkxxol:'              
+               .,:ldxkkOOOOOO000K000000000000000K000000000Okkxkkx:.            
+            ..,coxkkOOOOOOOOOOOOOOOkkOOOOO0000OOOO000000000OOkxxxxl'           
+           .,;codxxkkOOO0O00Okkk0KK0XNWWWWWWWWWNX0kkkkkOOOOOkkxdool;.          
+         .';::ccldkO0KKKK0OoccKKKK00KNNXXXXXNNX0OO000O00Okkkkkkxoc:,..         
+       .':clc:,,cx0K00xkKNNNWWXKkc.OKNNX               ..;loooc::ll:,..        
+      .,:cc;,...:odxkkkxddl::::,.                 ..';:cc:;:c:;,',''...        
+      .';;;,'..',,;:ccccllllc::;,,''''''''',,,,;:ccllllc:;,,'.....   ..        
+       ..........''',,,;;;;:::cllllllolllllloolllllcc:::;,'...                 
+              ..........',,,;;;;;;;;:cccccccccc::::;;,,''...                   
+                   .........''''''''',,;;;;;,,,'''''......                     
+                         .............................`;                     
 
 
 
 
 eye["far right"] = `                                                                                                                                      
-                                ...',,;:::cccc::;,'..                            
-                            ..,;:cllllloooooooddxxxdol;'.                        
-                         .',:cccc:cc:lloooxxxdxxkkkkkxodlc;,.                    
-                       .';:;;,,;:cddccdxxdxkOO0XWWWWWNXK0Okxdl:,.                
-                    ..'',,,'';ldl:,.         .'dNMMMMMMWMMWWKkdxx:.              
-                 ...''.....;cl;.               oKWMMMMMWKOOKNWKkO0x;.            
-               ....... ..,c:'                 .ONNWMMMWO. .oOKWN0K0d,.           
-             ......   .';,.                   .xKXNWMWMNl',k0KXXK0Oxc'.          
-           ..'..  ..;::,..                     .lk0KXWMMWNNNKO0000kl;..          
-         ..''..   ;ol:;,'..                     .lOKXWWMWNKkkkkOkxdl,..          
-        .....    .coc;;::::,..                   .o0XXXKOxoooooxkxoc,..          
-        ....     ...',,,;;:ccc::;;,'''''''''',,,;:lddddoocc:;;:ooc:,...          
-                  ....'''',,,;;::cccclllllooooooooolccccc:;,''',,,....           
-                    ........'',,,,,,;;;:::cccccccccc:;;,,''........              
-                      ...............''',,;;;;,,,',,,'........                   
-                           .............................`;                  
+                              ...',,;:::cccc::;,'..                            
+                          ..,;:cllllloooooooddxxxdol;'.                        
+                       .',:cccc:cc:lloooxxxdxxkkkkkxodlc;,.                    
+                     .';:;;,,;:cddccdxxdxkOO0XWWWWWNXK0Okxdl:,.                
+                  ..'',,,'';ldl:,.         .'dNMMMMMMWMMWWKkdxx:.              
+               ...''.....;cl;.               oKWMMMMMWKOOKNWKkO0x;.            
+             ....... ..,c:'                 .ONNWMMMWO. .oOKWN0K0d,.           
+           ......   .';,.                   .xKXNWMWMNl',k0KXXK0Oxc'.          
+         ..'..  ..;::,..                     .lk0KXWMMWNNNKO0000kl;..          
+       ..''..   ;ol:;,'..                     .lOKXWWMWNKkkkkOkxdl,..          
+      .....    .coc;;::::,..                   .o0XXXKOxoooooxkxoc,..          
+      ....     ...',,,;;:ccc::;;,'''''''''',,,;:lddddoocc:;;:ooc:,...          
+                ....'''',,,;;::cccclllllooooooooolccccc:;,''',,,....           
+                  ........'',,,,,,;;;:::cccccccccc:;;,,''........              
+                    ...............''',,;;;;,,,',,,'........                   
+                         .............................`;                  
 
 
 
@@ -162,42 +162,42 @@ eye["far right"] = `
 
 
 eyeClosing["far right"] = `                                                                                 
-                                 ...'',;;;;::;;;,'..                             
-                            ..,;:cloodddxxxkkkkkkkkxol;..                        
-                         .';codxxkkkOOOOOOOOOOOOkkkkkkxdoc,..                    
-                       .,codxkOOOO00000000OOOO0OOOOOOOOkkxddoc,..                
-                    .':ldxkOOOOO00000000000000000000000OOOOkkxxol:'              
-                 .,:ldxkkOOOOOO000K000000000000000K000000000Okkxkkx:.            
-              ..,coxkkOOOOOOOOOOOOOOOkkOOOOO0000OOOO000000000OOkxxxxl'           
-             .,;codxxkkOOO0O00Okkk0KK0XNWWWWWWWWWNX0kkkkkOOOOOkkxdool;.          
-           .';::ccldkO0KKKK0Ooc;KKKx00KNNXXXXXNNX0OO000O00Okkkkkkxoc:,..         
-         ..''..   ;ol:;,'..                     .lOKXWWMWNKkkkkOkxdl,..          
-        .....    .coc;;::::,..                   .o0XXXKOxoooooxkxoc,..          
-        ....     ...',,,;;:ccc::;;,'''''''''',,,;:lddddoocc:;;:ooc:,...          
-                  ....'''',,,;;::cccclllllooooooooolccccc:;,''',,,....           
-                    ........'',,,,,,;;;:::cccccccccc:;;,,''........              
-                      ...............''',,;;;;,,,',,,'........                   
-                           .............................`;               
+                               ...'',;;;;::;;;,'..                             
+                          ..,;:cloodddxxxkkkkkkkkxol;..                        
+                       .';codxxkkkOOOOOOOOOOOOkkkkkkxdoc,..                    
+                     .,codxkOOOO00000000OOOO0OOOOOOOOkkxddoc,..                
+                  .':ldxkOOOOO00000000000000000000000OOOOkkxxol:'              
+               .,:ldxkkOOOOOO000K000000000000000K000000000Okkxkkx:.            
+            ..,coxkkOOOOOOOOOOOOOOOkkOOOOO0000OOOO000000000OOkxxxxl'           
+           .,;codxxkkOOO0O00Okkk0KK0XNWWWWWWWWWNX0kkkkkOOOOOkkxdool;.          
+         .';::ccldkO0KKKK0Ooc;KKKx00KNNXXXXXNNX0OO000O00Okkkkkkxoc:,..         
+       ..''..   ;ol:;,'..                     .lOKXWWMWNKkkkkOkxdl,..          
+      .....    .coc;;::::,..                   .o0XXXKOxoooooxkxoc,..          
+      ....     ...',,,;;:ccc::;;,'''''''''',,,;:lddddoocc:;;:ooc:,...          
+                ....'''',,,;;::cccclllllooooooooolccccc:;,''',,,....           
+                  ........'',,,,,,;;;:::cccccccccc:;;,,''........              
+                    ...............''',,;;;;,,,',,,'........                   
+                         .............................`;               
 
 
 
 eye["right"] = `                                                                                 
-                                ...',;;:cccccccc:;,..                            
-                            ..,;:cccc::::ccccclloooolc;'.                        
-                         .',;:::;;;;:loodxkOkkxxkxxdocccc;;'..                   
-                       .,;;;,,;:cox  ...WWMMMMWNNWWNNKkdolcccc:,.                
-                    .',;;,',;lxo:   ...kMMMMMMMWNKKLlXNNkkdkoc:coo;.             
-                 ..,;:;,,,:ldl'    ...kkWXXNWMMMMXMMddkk.XWWN0d:;lkd,            
-               ..,;;,,'':loc.      ..lKMMMNl.  .cOKNWNKKK;lxO0X0l,cxo,.          
-             ..''....'cooc.         .cONMMX;   .lOXWNOKMk. ,ddx0Ooccl:.          
-           ..'..  .':odc.            .x0KKKkolcldO00WNMk.  cxxxkkdl:,..          
-         ..''..   ;dxolc;'            .lxxO0OkkxxO0WKKc. .;looolllol:'..         
-        ..'..    .':lloolc:,..          'lxkkkkkOkd,..':clc:::;,,;:;,'..         
-        ......   ....',;;;:ccc::;;,    ''',:lokdol:clllolc:;;,'........          
-            .     ....'''',,,;;:cccccclllloooollllccc:c:::;,'..                  
-                    .......'',,,,,,,,;;::::ccccc::::;;;,,''...                   
-                      ...............''',,,;;;,,''''''......                     
-                           ............................`;                       
+                              ...',;;:cccccccc:;,..                            
+                          ..,;:cccc::::ccccclloooolc;'.                        
+                       .',;:::;;;;:loodxkOkkxxkxxdocccc;;'..                   
+                     .,;;;,,;:cox  ...WWMMMMWNNWWNNKkdolcccc:,.                
+                  .',;;,',;lxo:   ...kMMMMMMMWNKKLlXNNkkdkoc:coo;.             
+               ..,;:;,,,:ldl'    ...kkWXXNWMMMMXMMddkk.XWWN0d:;lkd,            
+             ..,;;,,'':loc.      ..lKMMMNl.  .cOKNWNKKK;lxO0X0l,cxo,.          
+           ..''....'cooc.         .cONMMX;   .lOXWNOKMk. ,ddx0Ooccl:.          
+         ..'..  .':odc.            .x0KKKkolcldO00WNMk.  cxxxkkdl:,..          
+       ..''..   ;dxolc;'            .lxxO0OkkxxO0WKKc. .;looolllol:'..         
+      ..'..    .':lloolc:,..          'lxkkkkkOkd,..':clc:::;,,;:;,'..         
+      ......   ....',;;;:ccc::;;,    ''',:lokdol:clllolc:;;,'........          
+          .     ....'''',,,;;:cccccclllloooollllccc:c:::;,'..                  
+                  .......'',,,,,,,,;;::::ccccc::::;;;,,''...                   
+                    ...............''',,,;;;,,''''''......                     
+                         ............................`;                       
 
 
 
@@ -206,42 +206,42 @@ eye["right"] = `
 
 
 eyeClosing["right"] = `                                                                                 
-                                 ...'',;;;;::;;;,'..                             
-                            ..,;:cloodddxxxkkkkkkkkxol;..                        
-                         .';codxxkkkOOOOOOOOOOOOkkkkkkxdoc,..                    
-                       .,codxkOOOO00000000OOOO0OOOOOOOOkkxddoc,..                
-                    .':ldxkOOOOO00000000000000000000000OOOOkkxxol:'              
-                 .,:ldxkkOOOOOO000K000000000000000K000000000Okkxkkx:.            
-              ..,coxkkOOOOOOOOOOOOOOOkkOOOOO0000OOOO000000000OOkxxxxl'           
-             .,;codxxkkOOO0O00Okkk0KK0XNWWWWWWWWWNX0kkkkkOOOOOkkxdool;.          
-           .';::ccldkO0KKKK0Ooc;KKKx00KNNXXXXXNNX0OO000O00Okkkkkkxoc:,..         
-         ..''..   ;dxolc;'            .lxxO0OkkxxO0WKKc. .;looolllol:'..         
-        ..'..    .':lloolc:,..          'lxkkkkkOkd,..':clc:::;,,;:;,'..         
-        ......   ....',;;;:ccc::;;,    ''',:lokdol:clllolc:;;,'........          
-            .     ....'''',,,;;:cccccclllloooollllccc:c:::;,'..                  
-                    .......'',,,,,,,,;;::::ccccc::::;;;,,''...                   
-                      ...............''',,,;;;,,''''''......                     
-                           ............................`;                   
+                               ...'',;;;;::;;;,'..                             
+                          ..,;:cloodddxxxkkkkkkkkxol;..                        
+                       .';codxxkkkOOOOOOOOOOOOkkkkkkxdoc,..                    
+                     .,codxkOOOO00000000OOOO0OOOOOOOOkkxddoc,..                
+                  .':ldxkOOOOO00000000000000000000000OOOOkkxxol:'              
+               .,:ldxkkOOOOOO000K000000000000000K000000000Okkxkkx:.            
+            ..,coxkkOOOOOOOOOOOOOOOkkOOOOO0000OOOO000000000OOkxxxxl'           
+           .,;codxxkkOOO0O00Okkk0KK0XNWWWWWWWWWNX0kkkkkOOOOOkkxdool;.          
+         .';::ccldkO0KKKK0Ooc;KKKx00KNNXXXXXNNX0OO000O00Okkkkkkxoc:,..         
+       ..''..   ;dxolc;'            .lxxO0OkkxxO0WKKc. .;looolllol:'..         
+      ..'..    .':lloolc:,..          'lxkkkkkOkd,..':clc:::;,,;:;,'..         
+      ......   ....',;;;:ccc::;;,    ''',:lokdol:clllolc:;;,'........          
+          .     ....'''',,,;;:cccccclllloooollllccc:c:::;,'..                  
+                  .......'',,,,,,,,;;::::ccccc::::;;;,,''...                   
+                    ...............''',,,;;;,,''''''......                     
+                         ............................`;                   
 
 
 
 var eyeShut = `  
-                                 ...'',;;;;;;;,,...                              
-                            ..,:loxkkOOO000KKKKKK0Oxdc,..                        
-                         .,coxO00KXXXXXXXXXXXXXXXXXXXK0Oxo:,..                   
-                      ..;lxO00KKKKK000000000000000KKKKXXXXK0Oxl;..               
-                   ..,:oxkO0OO0OOOOOOOOOOOOOOOOOOOOOOO0000KKKKKKOd:.             
-                ..;codxkkOOOkkkkkkkxxxxxxxxxxxxxxxxkkkkkkOOOO00KK0kl'            
-              ..;ldxkkkkkkxxxxxddddddddddddddddddddddddxxxxxxkkkOOOxc.           
-            ..,:oxxkkkkkxxxxdddddddddddddddddddddddddddddddddxxkkkkxl;.          
-          ..,;codxxkkkxxddddddddddddddddddddddddddddddddxdxxxkOOOkxdo:..         
-         .';::::cldkOOOkkkxxxxxxdddddddddddddddddddddxxxxxkkOOOOkxddl;..         
-        .';:;,..,ckXXXKKK0KK00OkxkOdoddxxdddddddxxxxxxkkOOOOkkkkkxdoc,..         
-        .',,''..,:oxxxxxxxkkxkkxkOOxxk000OOO000000KKKKKKK00Okxdllll:,..          
-         .........',,,:ccllllooooxkxxxO0Okk000O0000000O00OOkxdoc,'...            
-                 ......',;;::cc::clllloddooxOxdxxkxxxxddollllc:'.                
-                      .....'',,,,,,,;;;;;::cllc::ccc::;;,,,'...                  
-                          ..................'''..'''......`;                
+                               ...'',;;;;;;;,,...                              
+                          ..,:loxkkOOO000KKKKKK0Oxdc,..                        
+                       .,coxO00KXXXXXXXXXXXXXXXXXXXK0Oxo:,..                   
+                    ..;lxO00KKKKK000000000000000KKKKXXXXK0Oxl;..               
+                 ..,:oxkO0OO0OOOOOOOOOOOOOOOOOOOOOOO0000KKKKKKOd:.             
+              ..;codxkkOOOkkkkkkkxxxxxxxxxxxxxxxxkkkkkkOOOO00KK0kl'            
+            ..;ldxkkkkkkxxxxxddddddddddddddddddddddddxxxxxxkkkOOOxc.           
+          ..,:oxxkkkkkxxxxdddddddddddddddddddddddddddddddddxxkkkkxl;.          
+        ..,;codxxkkkxxddddddddddddddddddddddddddddddddxdxxxkOOOkxdo:..         
+       .';::::cldkOOOkkkxxxxxxdddddddddddddddddddddxxxxxkkOOOOkxddl;..         
+      .';:;,..,ckXXXKKK0KK00OkxkOdoddxxdddddddxxxxxxkkOOOOkkkkkxdoc,..         
+      .',,''..,:oxxxxxxxkkxkkxkOOxxk000OOO000000KKKKKKK00Okxdllll:,..          
+       .........',,,:ccllllooooxkxxxO0Okk000O0000000O00OOkxdoc,'...            
+               ......',;;::cc::clllloddooxOxdxxkxxxxddollllc:'.                
+                    .....'',,,,,,,;;;;;::cllc::ccc::;;,,,'...                  
+                        ..................'''..'''......`;                
 
 
 
