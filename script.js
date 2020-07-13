@@ -273,11 +273,11 @@ c.onmousemove = function(evt) {
   //Split screen into 4 sections
   if (x < c.width/5) {
     eyeDir = "left";
-  } else if (x < (2.5*c.width/5)) {
+  } else if (x < (2.3*c.width/5)) {
     eyeDir = "forward";
-  } else if (x < (3.5*c.width/5)) {
+  } else if (x < (3.3*c.width/5)) {
     eyeDir = "middle";
-  } else if (x < (4.5*c.width/5)){
+  } else if (x < (4.3*c.width/5)){
     eyeDir = "right";
   } else {
     eyeDir = "far right";
