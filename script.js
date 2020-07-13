@@ -255,7 +255,7 @@ context.font = "Source Sans Pro";
 
 //AutoResize Canvas
 function resize() {
-  c.width = window.innerWidth - 10;
+  c.width = window.innerWidth - 62;
   c.height = window.innerHeight - 10;
 
   //Define textSize based on width
