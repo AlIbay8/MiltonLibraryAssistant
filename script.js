@@ -8,6 +8,8 @@ var eyeState = "open";
 var eye = {};
 var eyeClosing = {};
 
+var blinkGate = true;
+
 eye["middle"] = `
                               ...',;;:cccccccc:;,..
                           ..,;:cccc::::ccccclloooolc;'.
@@ -261,7 +263,7 @@ function resize() {
   //Define textSize based on width
   eyeTextSize = Math.min(Math.floor(c.width / 60), Math.floor(c.height / 40));
   openEye();
-  //drawLeftDots();
+  drawLeftDots();
 }
 window.addEventListener("resize", resize);
 resize();
@@ -285,6 +287,10 @@ c.onmousemove = function(evt) {
 
   if(eyeDir != before) {
     drawAll();
+    if (blinkGate == true) {
+      var frequencyBeep = Math.floor(Math.random()*300)+200;
+      playSound('triangle',frequencyBeep,.14)
+    }
   }
 };
 
@@ -333,7 +339,7 @@ function drawEye() {
 
 function drawAll() {
   clearCanvas();
-  //drawLeftDots();
+  drawLeftDots();
   drawEye();
 }
 
@@ -360,6 +366,7 @@ function closedEye() {
 
 //async function blink() {
 function blink() {
+  blinkGate = false;
   halfEye();
   sleep(blinkWaitTime).then(() => {
     blink2();
@@ -382,6 +389,7 @@ function blink3() {
     beep();
     waitToBlink();
   });
+  blinkGate = true;
 };
 
 //async function waitToBlink() {
